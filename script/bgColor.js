@@ -20,7 +20,7 @@ class Back {
            localStorage.setItem('red', '#35CD8C');
            localStorage.setItem('rgba','rgba(55, 205, 140,0.7)')
 
-           this.User__menu.style.transition = `500ms linear`;
+           this.User__menu.style.transition = `1000ms linear`;
            this.User__menu.classList.toggle("active");
                 
         })
@@ -32,10 +32,9 @@ class Back {
             localStorage.setItem('red', '#FE043C');
             localStorage.setItem('rgba','rgba(216, 34, 69, 0.7)')
             
-            this.User__menu.style.transition = `500ms linear`;
+            this.User__menu.style.transition = `1000ms linear`;
             this.User__menu.classList.toggle("active");
         })
-   
         
     }
 }

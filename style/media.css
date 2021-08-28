@@ -1269,4 +1269,16 @@
     .main__section {
         margin-top: 30px;
     }
+
+    .slider__line {
+        max-height: 400px;
+        height: 100%;
+      }
+      
+.header__input {
+    border: none;
+    width: 75%;
+    outline: none;
+  }
+  
 }
